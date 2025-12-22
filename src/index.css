@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import "tailwindcss";
+
+
+:root {
+
+  background-color: #0f172a;
+
+  /* Fonts */
+  font-family: "Inter", sans-serif;
+  /* font-family: system-ui, Avenir, Helvetica, Arial, sans-serif; */
+	/* font-family: "Google Sans Code", monospace; */
+
+
+  /* Base surfaces */
+  --color-bg-primary: #020617;   /* slate-950 */
+  --color-bg-secondary: #0f172a; /* slate-900 */
+  --color-bg-tertiary: #020617;  /* slate-950 */
+
+  /* Text */
+  --color-text-primary: #e5e7eb; /* slate-200 */
+  --color-text-secondary: #94a3b8; /* slate-400 */
+  --color-text-muted: #64748b; /* slate-500 */
+
+  /* Accent */
+  --color-accent-primary: #6366f1; /* indigo-500 */
+  --color-accent-hover: #818cf8;   /* indigo-400 */
+
+  /* Borders */
+  --color-border-primary: rgba(148, 163, 184, 0.15);
+
+  /* Glass */
+  --color-glass-bg: rgba(15, 23, 42, 0.7);
+}
+
+
+html,
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.perspective {
+  perspective: 1200px;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+/* .rotate-x-180 {
+  transform: rotateX(180deg);
+} */
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+
+@media (max-width: 768px) {
+  body{
+    max-width: 100vw;
+  };
+
+  
+}
+
+@media (max-width: 360px) {
+  body{
+    width: 100vw;
+    overflow-x: hidden;
+    margin-left: -20px
+  };
+}

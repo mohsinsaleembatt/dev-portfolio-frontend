@@ -1,0 +1,56 @@
+@media (max-width: 1136px) {
+    .heroContainer {
+        flex-direction: row;
+        align-items: center;
+        text-align: left;
+        gap: 3rem;
+    }
+
+    .heroText {
+        font-size: 2.5rem;
+    }
+
+    .heroSubtext {
+        font-size: 1.25rem;
+    }
+
+    .heroButton {
+        font-size: 1rem;
+        padding: 12px;
+        text-align: center;
+        /* background-color: brown; */
+    }
+}
+
+
+@media (max-width: 1040px) {
+
+
+    .heroButton {
+        font-size: 0.8rem;
+        padding: 10px;
+        text-align: center;
+        /* background-color: #a52a2a; */
+    }
+}
+
+@media (max-width: 400px) {
+
+    body {
+        font-size: 0.8rem;
+        margin: 0;
+        margin-left: -15px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 361px) {
+
+    body {
+        font-size: 0.8rem;
+        margin: 0;
+        margin-left: -25px;
+        text-align: center;
+    }
+}
+

@@ -1,0 +1,59 @@
+
+.App::before {
+	content: 'Developer';
+	position: absolute;
+	z-index: 1;
+	font-size: 8rem;
+	font-weight: 900;
+	color: #3a5e7f0e;
+	text-align: center;
+	text-transform: uppercase;
+	top: -100px;
+	left: 60%;
+	transform: translate(-50%, 50%);
+} 
+
+
+@media (max-width: 1024px) {
+  .App::before {
+	content: 'Developer';
+    font-size: 6.5rem;
+    top: -50px;
+    left: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  .App::before {
+	content: 'Developer';
+    font-size: 3.5rem;
+    top: -50px;
+    left: 50%;
+  }
+}
+
+@media (max-width: 361px) {
+
+  .App::before {
+	content: 'Developer';
+    font-size: 3.5rem;
+    top: -20px;
+    left: 50%;
+  }
+}
+
+@media (max-width: 400px) {
+  .hamBurger {
+    margin-left: -40px;
+  }
+
+  .contactButton {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 361px) {
+  .hamBurger {
+    margin-left: -25px;
+  }
+}
