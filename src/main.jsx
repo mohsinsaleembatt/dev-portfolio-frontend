@@ -1,18 +1,3 @@
-// import React from "react";
-// import ReactDOM from "react-dom/client";
-// import "./index.css";
-// import App from "./App";
-
-// ReactDOM.createRoot(document.getElementById("root")).render(
-//   <React.StrictMode>
-
-//     <div className="w-full max-w-full overflow-x-hidden">
-//       <App />
-//     </div>
-//   </React.StrictMode>
-// );
-
-
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
