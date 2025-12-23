@@ -69,29 +69,3 @@ const Home = () => {
 };
 
 export default Home;
-
-
-// import "./Home.css";
-// import Hero from "../sections/hero/Hero";
-// import Projects from "../sections/project/Project";
-// // import Sidebar from "../components/SideBar";
-// import Skills from "../sections/skills/Skills";
-// import About from "../sections/about/About";
-// import Process from "../sections/process/Process";
-// import Contact from "../sections/contact/Contact";
-// import SidebarLayout from "../components/SidebarLayout";
-
-// const Home = () => {
-//   return (
-//     <SidebarLayout>
-//       <Hero />
-//       <About />
-//       <Process />
-//       <Skills />
-//       <Projects />
-//       <Contact />
-//     </SidebarLayout>
-//   );
-// };
-
-// export default Home;
