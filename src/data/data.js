@@ -54,7 +54,7 @@ export const projectDetails = [
   {
     id: "portfolio",
     title: "Developer Portfolio",
-    image: "src/assets/dev-portfolio.png",
+    image: "/assets/dev-portfolio.png",
     shortDescription:
       "A personal portfolio built with React and Tailwind CSS.",
     description:
@@ -76,7 +76,7 @@ export const projectDetails = [
   {
     id: "seerahverse-academia",
     title: "SeerahVerse Academia",
-    image: "src/assets/seerahverse-academia.png",
+    image: "/assets/seerahverse-academia.png",
     shortDescription:
       "An educational web platform focused on Seerah, structured learning, and clean content presentation.",
     description:
@@ -107,7 +107,7 @@ export const projectDetails = [
   {
     id: "fullstack-dashboard",
     title: "Full-Stack Dashboard",
-    image: "src/assets/fullstack-dashboard.png",
+    image: "/assets/fullstack-dashboard.png",
     shortDescription:
       "A full-stack CRUD application with authentication and structured data flow.",
     description:
@@ -137,7 +137,7 @@ export const projectDetails = [
   },
   {
     id: "article-platform",
-    image: "src/assets/article-platform.png",
+    image: "/assets/article-platform.png",
     title: "Article Platform",
     shortDescription:
       "A full-stack CRUD application with authentication and structured data flow.",
@@ -168,7 +168,7 @@ export const projectDetails = [
   },
   {
     id: "task-manager-app",
-    image: "src/assets/task-manager-app.png",
+    image: "/assets/task-manager-app.png",
     title: "Task Manager App",
     shortDescription:
       "A full-stack CRUD application with authentication and structured data flow.",
