@@ -114,7 +114,7 @@ const Hero = () => {
         >
           <img
             src="/assets/mohsinProfile.png"
-            alt="Mohsin portrait"
+            alt="Mohsin Portrait"
             className="w-92 md:w-100 rounded-xl border border-slate-800 shadow-lg"
           />
         </motion.div>
