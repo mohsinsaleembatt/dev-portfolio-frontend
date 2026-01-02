@@ -113,7 +113,7 @@ const Hero = () => {
           className="flex justify-center md:justify-end bg-[#a52a2a]/10 rounded-xl shadow-slate-600/20 shadow-2xl p-3 border border-slate-600 mr-2 hover:p-1 hover:scale-120 transition-all duration-400"
         >
           <img
-            src="../../assets/profile.png"
+            src="../../assets/mohsinfiverr.png"
             alt="Mohsin Portrait"
             className="w-92 md:w-100 rounded-xl border border-slate-800 shadow-lg"
           />
